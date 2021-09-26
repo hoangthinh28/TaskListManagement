@@ -1,0 +1,53 @@
+*{box-sizing: border-box;}
+
+body{
+    background-color:aquamarine;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 60px;
+}
+
+h3{
+    color: rgb(0, 12, 104);
+    font-size: 30px;
+}
+.part-one, .add-task, .remove-task{
+    margin: 60px 160px;
+}
+
+input[type=text]{
+    width: 85%;
+    padding: 6px 40px;
+    margin: 6px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+label{
+    font-size: 23px;
+}
+
+select{
+    width: 85%;
+    padding: 6px 40px;
+    margin: 6px 20px;
+}
+
+#submit{
+    cursor: pointer;
+    background-color: rgb(242, 1, 1);
+    color: white;
+    padding: 6px 8px;
+    border: none;
+}
+
+.anoun{
+    font-size: 23px;
+    margin: 0 100px;
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+    font-style:oblique;
+}
